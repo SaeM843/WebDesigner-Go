@@ -1,3 +1,23 @@
+/* general */
+
 body {
-    
+    font-family: Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo,
+  sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+  }
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
 }
