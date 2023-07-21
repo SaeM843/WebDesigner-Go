@@ -163,3 +163,19 @@ img {
     font-size: 12px;
     margin-top: 6px;
 }
+
+.btn {
+    display: block;
+    position: relative;
+    width: 220px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #24a8bf;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    padding: 18px 0;
+    transition: opacity 0.3s;
+    border: 1px solid #24a8bf;
+    border-radius: 3px;
+}
