@@ -140,3 +140,26 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+.blog .list .item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.blog .list .item:hover {
+    opacity: 0.8;
+}
+
+.blog .list img {
+    margin-bottom: 12px;
+}
+
+.blog .list .title {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.blog .list .data {
+    font-size: 12px;
+    margin-top: 6px;
+}
