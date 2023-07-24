@@ -59,6 +59,7 @@ img {
     line-height: 1;
     letter-spacing: 0.1rem;
     margin-right: 80px;
+    list-style: none;
 }
 
 .global-nav ul li:last-child {
