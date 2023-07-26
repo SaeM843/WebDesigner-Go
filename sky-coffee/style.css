@@ -44,6 +44,10 @@ img {
     text-align: center;
 }
 
+.main-visual picture {
+    width: 100%;
+}
+
 /* global nav*/
 .global-nav {
     padding: 40px 0;
