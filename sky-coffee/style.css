@@ -164,7 +164,7 @@ img {
     font-weight: bold;
 }
 
-.blog .list .data {
+.blog .list .date {
     font-size: 12px;
     margin-top: 6px;
 }
@@ -284,5 +284,43 @@ img {
     .concept .text p {
         font-size: 15px;
         line-height: 1.8;
+    }
+
+    /* blog */
+    .blog .heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .blog .subtitle {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .blog .list {
+        display: block;
+    }
+
+    .blog .list .item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog .list .img {
+        margin-bottom: 10px;
+    }
+
+    .blog .list .date {
+        margin-top: 2px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .btn:hover {
+        opacity: 0.5;
     }
 }
