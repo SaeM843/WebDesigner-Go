@@ -226,10 +226,12 @@ img {
         line-height: 1.7;
     }
 
+    /* layout */
     .container {
         padding: 0 20px;
     }
 
+    /* header */
     .header {
         padding: 30px 0;
     }
@@ -238,4 +240,13 @@ img {
         width: 172px;
     }
     
+    /* global nav */
+    .global-nav {
+        padding: 30px 0;
+    }
+
+    .global-nav ul li {
+        font-size: 16px;
+        margin-right: 50px;
+    }
 }
