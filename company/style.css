@@ -63,3 +63,26 @@ img {
 .header__logo {
     line-height: 1;
 }
+
+/* nav */
+.gnav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.gnav-item {
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.gnav__link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.gnav__link:hover, .gnav__link--active {
+    color: var(--main-color);
+}
