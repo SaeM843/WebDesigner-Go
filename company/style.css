@@ -86,3 +86,7 @@ img {
 .gnav__link:hover, .gnav__link--active {
     color: var(--main-color);
 }
+
+.btn-menu {
+    display: none;
+}
