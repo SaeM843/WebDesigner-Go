@@ -24,3 +24,29 @@ img {
     height: auto;
     vertical-align: bottom;
 }
+
+/* layout */
+.wrapper {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.content {
+    display: grid;
+    padding: 60px 0 100px;
+    row-gap: 80px;
+}
+
+/* heading */
+.heading-primary {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: var(--main-color);
+}
