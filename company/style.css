@@ -252,7 +252,17 @@ img {
     letter-spacing: 0.03em;
 }
 
-/* header for sub pages"
+/* header for sub pages */
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    background-image: url("./img/pc_header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 
 /* message page */
