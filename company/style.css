@@ -252,6 +252,9 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* header for sub pages"
+
+
 /* message page */
 .message {
     /* max-width: 850px; */
@@ -284,4 +287,13 @@ img {
 
 .ceo-message__img {
     border-radius: 50%;
+}
+
+.ceo-message__text {
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+
+.ceo-message__text a {
+    color: var(--link-color);
 }
