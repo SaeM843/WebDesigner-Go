@@ -254,7 +254,7 @@ img {
 
 /* message page */
 .message {
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: 0 auto;
 }
 
@@ -274,4 +274,14 @@ img {
     letter-spacing: 0.05em;
     text-align: center;
     margin-bottom: 40px;
+}
+
+.ceo-message__img-wrapper {
+    width: 100px;
+    margin: 0 25px 15px 0;
+    float: left;
+}
+
+.ceo-message__img {
+    border-radius: 50%;
 }
