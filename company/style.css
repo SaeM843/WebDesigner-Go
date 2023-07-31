@@ -317,3 +317,18 @@ img {
 .ceo-message__text a {
     color: var(--link-color);
 }
+
+/* company page */
+.company-info__table {
+    margin-bottom: 50px;
+}
+
+.company-info__map iframe {
+    height: 400px;
+}
+
+.company-info__map-link {
+    font-size: 14px;
+    text-align: right;
+    margin-top: 20px;
+}
