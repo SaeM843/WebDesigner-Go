@@ -356,4 +356,8 @@ img {
     body {
         font-size: 15px;
     }
+
+    .heading-primary {
+        font-size: 32px;
+    }
 }
