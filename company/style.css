@@ -497,4 +497,18 @@ img {
   .btn-menu.active .btn-menu__line::after {
     transform: rotate(-45deg);
   }
+
+  /* mv */
+  .mv {
+    height: 460px;
+    background-image: url("./img/sp_mv.jpg");
+  }
+
+  .mv__title {
+    font-size: 80px;
+  }
+
+  .mv__subtitle {
+    font-size: 20px;
+  }
 }
