@@ -384,4 +384,68 @@ img {
   .table-type01 th {
     width: 100px;
   }
+
+  /* header */
+  .header {
+    position: relative;
+    height: 60px;
+    padding: 20px;
+  }
+
+  .header__logo {
+    width: 107px;
+  }
+
+  .gnav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 180px;
+    height: 100%;
+    background-color: var(--main-color);
+    box-shadow: -10px 0 35px -20px rgb(0 0 0 / 25%);
+  }
+
+  .gnav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 180px;
+    padding: 90px 20px 20px 50px;
+    row-gap: 25px;
+  }
+
+  .gnav__link {
+    color: white;
+  }
+
+  .gnav__link:hover {
+    color: white;
+  }
+
+  .gnav__link--active {
+    opacity: 0.6;
+  }
+
+  .btn-menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 21px 16px;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: var(--main-color);
+    cursor: pointer;
+    appearance: none;
+  }
 }
