@@ -360,4 +360,28 @@ img {
     .heading-primary {
         font-size: 32px;
     }
+
+    /* layout */
+    .container {
+        padding: 0 20px;
+    }
+
+    .content {
+        padding: 40px 0 60px;
+        row-gap: 50px;
+    }
+
+    .table-type01 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .table-type01 th,
+  .table-type01 td {
+    padding: 20px 0;
+  }
+
+  .table-type01 th {
+    width: 100px;
+  }
 }
