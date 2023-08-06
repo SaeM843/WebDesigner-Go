@@ -511,4 +511,34 @@ img {
   .mv__subtitle {
     font-size: 20px;
   }
+
+  /* news */
+  .news__heading {
+    margin-bottom: 20px;
+  }
+
+  .news__inner {
+    display: block;
+  }
+
+  .news-list__link {
+    flex-direction: column;
+  }
+
+  .news-list__item {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .news-list__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .news-list__title {
+    line-height: 1.6;
+  }
+
+  .news-list__date {
+    margin-right: 0;
+  }
 }
