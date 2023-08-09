@@ -541,4 +541,32 @@ img {
   .news-list__date {
     margin-right: 0;
   }
+
+  /* service */
+  .service__heading {
+    margin-bottom: 20px;
+  }
+
+  .service__heading::before {
+    top: -2px;
+    right: -30px;
+    font-size: 70px;
+  }
+
+  .service-list {
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .service-list__item {
+    padding: 40px 30px;
+  }
+
+  .service-list__img-wrapper {
+    margin-bottom: 5px;
+  }
+
+  .service-list__img {
+    font-size: 60px;
+  }
 }
