@@ -430,6 +430,10 @@ img {
     opacity: 0.6;
   }
 
+  .gnav.show {
+    display: block;
+  }
+
 
 
   .btn-menu {

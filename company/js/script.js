@@ -4,5 +4,6 @@ $(function() {
 
     $btnMenu.on("click", function() {
         $btnMenu.toggleClass("active");
+        $gnav.toggleClass("show");
     })
 });
