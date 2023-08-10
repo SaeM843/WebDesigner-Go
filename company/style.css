@@ -72,10 +72,11 @@ img {
     column-gap: 30px;
 }
 
-.gnav-item {
+.gnav__item {
     font-weight: bold;
     line-height: 1;
     letter-spacing: 0.05em;
+    font-size: 16px;
 }
 
 .gnav__link {
