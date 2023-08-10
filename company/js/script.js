@@ -5,5 +5,6 @@ $(function() {
     $btnMenu.on("click", function() {
         $btnMenu.toggleClass("active");
         $gnav.toggleClass("show");
+        $gnav.animate({width: "toggle"}, 200);
     })
 });
