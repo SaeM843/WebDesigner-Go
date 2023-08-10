@@ -617,4 +617,21 @@ img {
     font-size: 12px;
     margin-top: 15px;
   }
+
+  /* footer */
+  .footer {
+    padding: 40px 0 30px;
+  }
+
+  .footer-nav__list {
+    column-gap: 25px;
+  }
+
+  .footer-nav__item {
+    font-size: 12px;
+  }
+
+  .footer__copyright {
+    font-size: 10px;
+  }
 }
