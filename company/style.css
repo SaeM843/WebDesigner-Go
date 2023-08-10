@@ -587,4 +587,24 @@ img {
   .page-header__title {
     font-size: 28px;
   }
+
+  /* subpage */
+  .message__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .message__subtitle {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .ceo-message__img-wrapper {
+    margin: 0 15px 10px 0;
+  }
+
+  .office-img {
+    height: 260px;
+    object-fit: cover;
+  }
 }
