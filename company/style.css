@@ -569,4 +569,12 @@ img {
   .service-list__img {
     font-size: 60px;
   }
+
+  .service-list__title {
+    font-size: 16px;
+  }
+
+  .service-list__text {
+    margin-top: 10px;
+  }
 }
