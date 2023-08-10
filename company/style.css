@@ -577,4 +577,14 @@ img {
   .service-list__text {
     margin-top: 10px;
   }
+
+  /* subpage header */
+  .page-header {
+    height: 160px;
+    background-image: url("./img/sp_header.jpg");
+  }
+
+  .page-header__title {
+    font-size: 28px;
+  }
 }
