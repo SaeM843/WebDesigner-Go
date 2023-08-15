@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "destyle.css": "^4.0.0"
-  }
+    "destyle.css": "^4.0.0",
+    "sass": "^1.65.1"
+  },
+  "name": "wdc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
