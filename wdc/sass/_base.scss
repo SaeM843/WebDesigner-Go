@@ -1,0 +1,10 @@
+@use "./variables" as var;
+
+body {
+    font-family: var.$main-font;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: var.$text-color;
+    background-color: var.$bg-color;
+    font-feature-settings: "palt"; /* automated font-kerning */
+}
