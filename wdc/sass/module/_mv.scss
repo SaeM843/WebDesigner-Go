@@ -1,0 +1,5 @@
+@use "../variables" as var;
+
+.mv {
+    background-color: var.$bg-gradient;
+}
