@@ -419,4 +419,11 @@ img {
   padding: 30px;
 }
 
+.header__logo {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  color: #d136d1;
+}
+
 /*# sourceMappingURL=style.css.map */
