@@ -438,7 +438,20 @@ img {
 }
 
 .mv {
-  background-color: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
+  background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
+}
+
+.mv__inner {
+  height: 700px;
+  max-width: 1240px;
+  margin: 0 auto;
+  background-image: url("../../img/mv.png");
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 0 50px;
+  background-position: right bottom;
 }
 
 /*# sourceMappingURL=style.css.map */

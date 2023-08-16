@@ -1,5 +1,18 @@
 @use "../variables" as var;
 
 .mv {
-    background-color: var.$bg-gradient;
+    background: var.$bg-gradient;
+}
+
+.mv__inner {
+    height: 700px;
+    max-width: 1240px;
+    margin: 0 auto;
+    background-image: url("../../img/mv.png");
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0 50px;
+    background-position: right bottom;
 }
