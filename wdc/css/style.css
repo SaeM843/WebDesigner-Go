@@ -386,4 +386,12 @@ img {
   vertical-align: bottom;
 }
 
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
