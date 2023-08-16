@@ -1,2 +1,3 @@
-@use "variables" as var;
-@use "../css/destyle.css/destyle.css"
+@use "./variables" as var;
+@use "../css/destyle.css/destyle.css";
+@use "./base";
