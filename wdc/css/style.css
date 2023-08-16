@@ -380,4 +380,10 @@ body {
   font-feature-settings: "palt"; /* automated font-kerning */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
 /*# sourceMappingURL=style.css.map */

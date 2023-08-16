@@ -8,3 +8,8 @@ body {
     background-color: var.$bg-color;
     font-feature-settings: "palt"; /* automated font-kerning */
 }
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
