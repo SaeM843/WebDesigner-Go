@@ -1,0 +1,11 @@
+@use "../variables" as var;
+
+.header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 30px;
+}
