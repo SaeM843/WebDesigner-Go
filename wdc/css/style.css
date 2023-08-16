@@ -394,4 +394,10 @@ img {
   display: none;
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
