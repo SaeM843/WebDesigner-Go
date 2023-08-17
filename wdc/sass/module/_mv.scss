@@ -21,3 +21,14 @@
     position: relative;
     color: var.$text-color;
 }
+
+.mv__titleArea::after {
+    background-image: url("../../img/teiji-de-kaerumon.svg");
+    display: block;
+    position: absolute;
+    content: "aaa";
+    right: 40px;
+    bottom: 60px;
+    width: 326px;
+    height: 68px;
+}
