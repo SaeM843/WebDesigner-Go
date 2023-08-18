@@ -418,8 +418,7 @@ img {
   height: 90px;
   padding: 30px;
 }
-
-.header__logo {
+.header .header__logo {
   font-size: 28px;
   font-weight: bold;
   line-height: 1;
@@ -432,16 +431,14 @@ img {
   justify-content: center;
   column-gap: 30px;
 }
-
-.gnav__item {
+.gnav__list .gnav__item {
   font-weight: bold;
 }
 
 .mv {
   background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
 }
-
-.mv__inner {
+.mv .mv__inner {
   height: 700px;
   max-width: 1240px;
   margin: 0 auto;
@@ -452,6 +449,20 @@ img {
   align-items: center;
   padding: 0 50px;
   background-position: right bottom;
+}
+.mv .mv__inner .mv__titleArea {
+  position: relative;
+  color: #fff;
+}
+.mv .mv__inner .mv__titleArea:after {
+  background-image: url("../../img/teiji-de-kaerumon.svg");
+  display: block;
+  position: absolute;
+  content: "";
+  right: 40px;
+  bottom: 60px;
+  width: 326px;
+  height: 68px;
 }
 
 /*# sourceMappingURL=style.css.map */

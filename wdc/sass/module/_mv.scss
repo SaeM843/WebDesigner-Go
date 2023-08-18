@@ -2,33 +2,33 @@
 
 .mv {
     background: var.$bg-gradient;
-}
 
-.mv__inner {
-    height: 700px;
-    max-width: 1240px;
-    margin: 0 auto;
-    background-image: url("../../img/mv.png");
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-items: center;
-    padding: 0 50px;
-    background-position: right bottom;
-}
+    .mv__inner {
+        height: 700px;
+        max-width: 1240px;
+        margin: 0 auto;
+        background-image: url("../../img/mv.png");
+        background-repeat: no-repeat;
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 0 50px;
+        background-position: right bottom;
 
-.mv__titleArea {
-    position: relative;
-    color: var.$text-color;
-}
+        .mv__titleArea {
+            position: relative;
+            color: var.$text-color;
 
-.mv__titleArea::after {
-    background-image: url("../../img/teiji-de-kaerumon.svg");
-    display: block;
-    position: absolute;
-    content: "aaa";
-    right: 40px;
-    bottom: 60px;
-    width: 326px;
-    height: 68px;
+            &:after {
+                background-image: url("../../img/teiji-de-kaerumon.svg");
+                display: block;
+                position: absolute;
+                content: "";
+                right: 40px;
+                bottom: 60px;
+                width: 326px;
+                height: 68px;
+            }
+        }
+    }
 }
