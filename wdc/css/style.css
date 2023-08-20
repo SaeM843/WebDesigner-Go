@@ -474,5 +474,11 @@ img {
   line-height: 1;
   margin-bottom: 0.8em;
 }
+.mv .mv__inner .mv__titleArea .mv__title {
+  font-size: clamp(24px, 10vw, 100px);
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
