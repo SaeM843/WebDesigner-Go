@@ -449,6 +449,7 @@ img {
   align-items: center;
   padding: 0 50px;
   background-position: right bottom;
+  background-size: 560px 737px;
 }
 .mv .mv__inner .mv__titleArea {
   position: relative;
@@ -465,6 +466,13 @@ img {
   height: 68px;
   background-size: contain;
   transform: rotate(-13deg);
+}
+.mv .mv__inner .mv__titleArea .mv__subtitle {
+  font-size: 24px;
+  color: #d136d1;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0.8em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,6 +14,7 @@
         align-items: center;
         padding: 0 50px;
         background-position: right bottom;
+        background-size: 560px 737px;
 
         .mv__titleArea {
             position: relative;
@@ -30,6 +31,14 @@
                 height: 68px;
                 background-size: contain;
                 transform: rotate(-13deg);
+            }
+
+            .mv__subtitle {
+                font-size: 24px;
+                color: var.$main-color;
+                font-weight: bold;
+                line-height: 1;
+                margin-bottom: 0.8em;
             }
         }
     }
