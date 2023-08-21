@@ -30,6 +30,16 @@
                 font-size: 12px;
                 margin-left: 10px;
             }
+
+            .form__radio:not(:last-child) {
+                margin-right: 35px;
+            }
+
+            .form input[type="radio"] {
+                margin-right: 5px;
+                border: 1px solid #333;
+                border-radius: 50%;
+            }
         }
     }
 }

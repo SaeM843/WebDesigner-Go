@@ -671,5 +671,13 @@ img {
   font-size: 12px;
   margin-left: 10px;
 }
+.register .register__form .form__item .form__radio:not(:last-child) {
+  margin-right: 35px;
+}
+.register .register__form .form__item .form input[type=radio] {
+  margin-right: 5px;
+  border: 1px solid #333;
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
