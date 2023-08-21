@@ -1,3 +1,5 @@
+@use "../variables" as var;
+
 .about__body {
     display: flex;
     align-items: center;
@@ -12,6 +14,21 @@
 
         .about__subtitle {
             font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .about__title {
+            font-size: 48px;
+            color: var.$main-color;
+            font-weight: bold;
+            line-height: 1;
+            margin-bottom: 40px;
+            letter-spacing: 0.1em;
+        }
+
+        .about__info {
+            font-size: 18px;
+            line-height: 1.8;
             margin-bottom: 20px;
         }
 

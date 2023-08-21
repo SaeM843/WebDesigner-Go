@@ -550,5 +550,18 @@ img {
   font-size: 24px;
   margin-bottom: 20px;
 }
+.about__body .about__desc .about__title {
+  font-size: 48px;
+  color: #d136d1;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  letter-spacing: 0.1em;
+}
+.about__body .about__desc .about__info {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
