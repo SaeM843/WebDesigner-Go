@@ -577,6 +577,17 @@ img {
 /*.about__btn {
     @include
 } */
+.session-table__time {
+  font-size: 22px;
+}
+
+.session-table__title {
+  font-size: 22px;
+  color: #d136d1;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .speaker {
   background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
 }
