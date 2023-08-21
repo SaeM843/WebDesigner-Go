@@ -511,5 +511,8 @@ img {
 .mv .mv__inner .mv__speaker--name .mv__speaker--name--small {
   font-size: 0.8em;
 }
+.mv .mv__inner .mv__speaker--name .mv__speaker--name--label {
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=style.css.map */
