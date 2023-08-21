@@ -656,5 +656,10 @@ img {
 .register .register__form .form__item:not(:last-child) {
   margin-bottom: 30px;
 }
+.register .register__form .form__item:not(:last-child) .form__title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
