@@ -20,4 +20,19 @@
     tr {
         border-bottom: solid 1px #740174;
     }
+
+    th, td {
+        padding: 40px 30px;
+    }
+
+    th {
+        width: 200px;
+    }
+
+    td {
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+    }
 }

@@ -594,6 +594,16 @@ img {
 .table-type02 tr {
   border-bottom: solid 1px #740174;
 }
+.table-type02 th, .table-type02 td {
+  padding: 40px 30px;
+}
+.table-type02 th {
+  width: 200px;
+}
+.table-type02 td p {
+  font-size: 15px;
+  line-height: 1.5;
+}
 
 .speaker {
   background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
