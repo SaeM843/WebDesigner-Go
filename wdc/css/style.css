@@ -485,5 +485,8 @@ img {
   font-weight: bold;
   letter-spacing: 0.07em;
 }
+.mv .mv__inner .mv__titleArea .mv__btn {
+  margin-top: 2em;
+}
 
 /*# sourceMappingURL=style.css.map */
