@@ -661,5 +661,10 @@ img {
   font-weight: bold;
   margin-bottom: 10px;
 }
+.register .register__form .form__item .form__note {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
