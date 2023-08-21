@@ -601,6 +601,12 @@ img {
   line-height: 1;
   margin-bottom: 40px;
 }
+.speaker .speaker-list .speaker-box .speaker-box__desc .speaker-box__name .speaker-box__name--note {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+}
 .speaker .speaker-list .speaker-box .speaker-box__img {
   flex: 0 1 40%;
 }
