@@ -644,4 +644,8 @@ img {
   flex: 0 1 40%;
 }
 
+.register {
+  background-image: url("../../img/bg.jpg");
+}
+
 /*# sourceMappingURL=style.css.map */
