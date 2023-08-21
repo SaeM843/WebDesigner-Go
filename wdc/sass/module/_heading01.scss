@@ -6,4 +6,11 @@
     line-height: 1;
     letter-spacing: 0.05em;
     color: var.$main-color;
+
+    .heading01__subtitle {
+        font-size: 20px;
+        color: var.$text-color;
+        display: block;
+        margin-top: 10px;
+    }
 }

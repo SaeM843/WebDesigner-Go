@@ -528,5 +528,11 @@ img {
   letter-spacing: 0.05em;
   color: #d136d1;
 }
+.heading01 .heading01__subtitle {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
