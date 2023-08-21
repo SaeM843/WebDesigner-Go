@@ -24,6 +24,12 @@
                 font-weight: normal;
                 margin-left: 5px;
             }
+
+            .form__require {
+                color: var.$main-color;
+                font-size: 12px;
+                margin-left: 10px;
+            }
         }
     }
 }

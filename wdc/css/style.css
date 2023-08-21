@@ -666,5 +666,10 @@ img {
   font-weight: normal;
   margin-left: 5px;
 }
+.register .register__form .form__item .form__require {
+  color: #d136d1;
+  font-size: 12px;
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
