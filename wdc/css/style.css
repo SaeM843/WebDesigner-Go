@@ -508,5 +508,8 @@ img {
   font-size: 21px;
   line-height: 1;
 }
+.mv .mv__inner .mv__speaker--name .mv__speaker--name--small {
+  font-size: 0.8em;
+}
 
 /*# sourceMappingURL=style.css.map */
