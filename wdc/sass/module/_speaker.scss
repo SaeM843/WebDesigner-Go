@@ -10,6 +10,10 @@
         .speaker-box {
             display: flex;
             column-gap: 60px;
+
+            &:nth-child(2n) {
+                flex-direction: row-reverse;
+              }
         }
     }
 }

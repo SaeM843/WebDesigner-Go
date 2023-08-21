@@ -588,5 +588,8 @@ img {
   display: flex;
   column-gap: 60px;
 }
+.speaker .speaker-list .speaker-box:nth-child(2n) {
+  flex-direction: row-reverse;
+}
 
 /*# sourceMappingURL=style.css.map */
