@@ -1,12 +1,18 @@
 @use "../variables" as var;
 
-.session-table__time {
-    font-size: 22px;
-  }
+.table-type02 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
 
-  .session-table__title {
-    font-size: 22px;
-    color: var.$main-color;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
+    .session-table__time {
+        font-size: 22px;
+      }
+
+      .session-table__title {
+        font-size: 22px;
+        color: var.$main-color;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+}

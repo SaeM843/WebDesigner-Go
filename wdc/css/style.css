@@ -577,11 +577,15 @@ img {
 /*.about__btn {
     @include
 } */
-.session-table__time {
+.table-type02 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table-type02 .session-table__time {
   font-size: 22px;
 }
-
-.session-table__title {
+.table-type02 .session-table__title {
   font-size: 22px;
   color: #d136d1;
   font-weight: bold;
