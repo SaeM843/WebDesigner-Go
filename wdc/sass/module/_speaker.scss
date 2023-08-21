@@ -1,0 +1,15 @@
+@use "../variables" as var;
+
+.speaker {
+    background: var.$bg-gradient;
+
+    .speaker-list {
+        display: grid;
+        row-gap: 88px;
+
+        .speaker-box {
+            display: flex;
+            column-gap: 60px;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 @use "../variables" as var;
+@use "../mixin/btn";
 
 .about__body {
     display: flex;
@@ -45,3 +46,7 @@
         padding: 5px 0;
     }
 }
+
+/*.about__btn {
+    @include
+} */

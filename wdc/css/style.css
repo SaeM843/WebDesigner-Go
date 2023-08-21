@@ -574,4 +574,19 @@ img {
   padding: 5px 0;
 }
 
+/*.about__btn {
+    @include
+} */
+.speaker {
+  background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);
+}
+.speaker .speaker-list {
+  display: grid;
+  row-gap: 88px;
+}
+.speaker .speaker-list .speaker-box {
+  display: flex;
+  column-gap: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
