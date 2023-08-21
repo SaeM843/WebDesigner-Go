@@ -1,0 +1,19 @@
+.about__body {
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+
+    .about__img--wrapper {
+        flex: 0 1 40%;
+    }
+
+    .about__desc {
+        flex: 1;
+
+        .about__subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+    }
+}
