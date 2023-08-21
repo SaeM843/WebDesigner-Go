@@ -674,6 +674,10 @@ img {
 .register .register__form .form__item .form__radio:not(:last-child) {
   margin-right: 35px;
 }
+.register .register__form .form__item .form__input, .register .register__form .form__item .form__select {
+  width: 300px;
+  color: #333;
+}
 .register .register__form .form__item .form input[type=radio] {
   margin-right: 5px;
   border: 1px solid #333;

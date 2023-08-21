@@ -35,6 +35,11 @@
                 margin-right: 35px;
             }
 
+            .form__input, .form__select {
+                width: 300px;
+                color: #333;
+            }
+
             .form input[type="radio"] {
                 margin-right: 5px;
                 border: 1px solid #333;
