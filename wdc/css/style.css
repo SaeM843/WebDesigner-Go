@@ -564,4 +564,10 @@ img {
   margin-bottom: 20px;
 }
 
+.table-type01 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
