@@ -653,5 +653,8 @@ img {
   border-radius: 20px;
   background-color: #1a1a1a;
 }
+.register .register__form .form__item:not(:last-child) {
+  margin-bottom: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

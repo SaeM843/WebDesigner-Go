@@ -8,5 +8,9 @@
         border: 5px solid var.$main-color;
         border-radius: 20px;
         background-color: #1a1a1a;
+
+        .form__item:not(:last-child) {
+            margin-bottom: 30px;
+        }
     }
 }
