@@ -591,6 +591,9 @@ img {
   font-weight: bold;
   margin-bottom: 15px;
 }
+.table-type02 tr {
+  border-bottom: solid 1px #740174;
+}
 
 .speaker {
   background: linear-gradient(135deg, #0e002e 0%, #1e092b 23%, #320c65 49%, #a01b7c 80%, #c21780 100%);

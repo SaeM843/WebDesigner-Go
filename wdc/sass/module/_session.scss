@@ -5,14 +5,19 @@
     border-collapse: collapse;
     border-spacing: 0;
 
+
     .session-table__time {
         font-size: 22px;
-      }
+    }
 
-      .session-table__title {
+    .session-table__title {
         font-size: 22px;
         color: var.$main-color;
         font-weight: bold;
         margin-bottom: 15px;
-      }
+    }
+
+    tr {
+        border-bottom: solid 1px #740174;
+    }
 }
