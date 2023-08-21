@@ -591,5 +591,11 @@ img {
 .speaker .speaker-list .speaker-box:nth-child(2n) {
   flex-direction: row-reverse;
 }
+.speaker .speaker-list .speaker-box .speaker-box__desc {
+  flex: 1;
+}
+.speaker .speaker-list .speaker-box .speaker-box__img {
+  flex: 0 1 40%;
+}
 
 /*# sourceMappingURL=style.css.map */
