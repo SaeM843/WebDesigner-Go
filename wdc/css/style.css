@@ -594,6 +594,13 @@ img {
 .speaker .speaker-list .speaker-box .speaker-box__desc {
   flex: 1;
 }
+.speaker .speaker-list .speaker-box .speaker-box__desc .speaker-box__name {
+  font-size: 42px;
+  color: #d136d1;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+}
 .speaker .speaker-list .speaker-box .speaker-box__img {
   flex: 0 1 40%;
 }

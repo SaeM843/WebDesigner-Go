@@ -17,6 +17,14 @@
 
             .speaker-box__desc {
                 flex: 1;
+
+                .speaker-box__name {
+                    font-size: 42px;
+                    color: var.$main-color;
+                    font-weight: bold;
+                    line-height: 1;
+                    margin-bottom: 40px;
+                }
             }
 
             .speaker-box__img {
