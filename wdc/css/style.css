@@ -647,5 +647,11 @@ img {
 .register {
   background-image: url("../../img/bg.jpg");
 }
+.register .register__form {
+  padding: 90px;
+  border: 5px solid #d136d1;
+  border-radius: 20px;
+  background-color: #1a1a1a;
+}
 
 /*# sourceMappingURL=style.css.map */
