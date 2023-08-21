@@ -521,4 +521,12 @@ img {
   box-shadow: 0 6px 0 #dd118e;
 }
 
+.heading01 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #d136d1;
+}
+
 /*# sourceMappingURL=style.css.map */
