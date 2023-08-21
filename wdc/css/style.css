@@ -501,5 +501,12 @@ img {
   border-radius: 100px;
   box-shadow: 0 10px #dd118e;
 }
+.mv .mv__inner .mv__speaker--name {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 21px;
+  line-height: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
