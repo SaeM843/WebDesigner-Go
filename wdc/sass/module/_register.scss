@@ -40,6 +40,10 @@
                 color: #333;
             }
 
+            input {
+                appearance: revert;
+            }
+
             .form input[type="radio"] {
                 margin-right: 5px;
                 border: 1px solid #333;

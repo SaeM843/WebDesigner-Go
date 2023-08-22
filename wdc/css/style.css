@@ -678,6 +678,9 @@ img {
   width: 300px;
   color: #333;
 }
+.register .register__form .form__item input {
+  appearance: revert;
+}
 .register .register__form .form__item .form input[type=radio] {
   margin-right: 5px;
   border: 1px solid #333;
