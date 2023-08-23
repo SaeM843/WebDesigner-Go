@@ -723,7 +723,6 @@ img {
 }
 .register .register__form .form__item .form input[type=tel] {
   width: 200px;
-  background-color: pink;
 }
 .register .register__form .form__item .form__textarea {
   background-color: white;
