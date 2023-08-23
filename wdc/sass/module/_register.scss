@@ -75,7 +75,7 @@
             margin-top: 50px;
 
             .btn {
-                @include btn.btn(300px, 16px);
+                @include btn.btn(300px, 18px);
             }
         }
     }
