@@ -525,6 +525,10 @@ img {
   box-shadow: 0 10px #dd118e;
   transition: all 0.3s;
 }
+.mv .mv__inner .mv__titleArea .mv__btn .btn:hover {
+  transform: translateY(4px);
+  box-shadow: 0 6px 0 #dd118e;
+}
 .mv .mv__inner .mv__speaker--name {
   position: absolute;
   right: 20px;
@@ -607,6 +611,10 @@ img {
   border-radius: 100px;
   box-shadow: 0 10px #dd118e;
   transition: all 0.3s;
+}
+.about__btn:hover {
+  transform: translateY(4px);
+  box-shadow: 0 6px 0 #dd118e;
 }
 
 .table-type02 {
@@ -759,6 +767,10 @@ img {
   border-radius: 100px;
   box-shadow: 0 10px #dd118e;
   transition: all 0.3s;
+}
+.register .register__form .form__btn .btn:hover {
+  transform: translateY(4px);
+  box-shadow: 0 6px 0 #dd118e;
 }
 
 input[type=radio] {

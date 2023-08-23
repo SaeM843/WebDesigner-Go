@@ -35,4 +35,9 @@
     border-radius: 100px;
     box-shadow: 0 10px #dd118e;
     transition: all 0.3s;
+
+    &:hover {
+        transform: translateY(4px);
+        box-shadow: 0 6px 0 #dd118e;
+    }
 }
