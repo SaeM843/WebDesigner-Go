@@ -48,5 +48,6 @@
 }
 
 .about__btn {
+    margin-top: 20px;
     @include btn.btn(230px, 18px);
 }

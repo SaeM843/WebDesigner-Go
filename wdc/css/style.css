@@ -594,6 +594,7 @@ img {
 }
 
 .about__btn {
+  margin-top: 20px;
   display: inline-block;
   width: 230px;
   font-size: 18px;
