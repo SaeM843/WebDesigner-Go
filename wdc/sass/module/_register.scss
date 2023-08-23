@@ -1,4 +1,5 @@
 @use "../variables" as var;
+@use "../mixin/btn";
 
 .register {
     background-image: url("../../img/bg.jpg");
@@ -73,6 +74,10 @@
         .form__btn {
             text-align: center;
             margin-top: 50px;
+
+            .btn {
+                @include btn.btn(300px, 16px);
+            }
         }
     }
 }

@@ -735,6 +735,20 @@ img {
   text-align: center;
   margin-top: 50px;
 }
+.register .register__form .form__btn .btn {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 24px 0;
+  background: linear-gradient(135deg, #c41a7f 0%, #664bbf 100%);
+  border-radius: 100px;
+  box-shadow: 0 10px #dd118e;
+  transition: all 0.3s;
+}
 
 .footer {
   display: grid;
