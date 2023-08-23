@@ -709,4 +709,11 @@ img {
   margin-top: 50px;
 }
 
+.footer {
+  display: grid;
+  place-items: center;
+  padding: 70px 20px;
+  background-color: #141414;
+}
+
 /*# sourceMappingURL=style.css.map */
