@@ -704,7 +704,8 @@ img {
 }
 .register .register__form .form__item .form__require {
   color: #d136d1;
-  font-size: 12px;
+  /*font-size: 12px;*/
+  font-size: 0.75rem;
   margin-left: 10px;
 }
 .register .register__form .form__item .form__radio:not(:last-child) {
