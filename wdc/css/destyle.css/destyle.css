@@ -241,6 +241,17 @@ textarea {
   text-transform: inherit; /* 2 */
 }
 
+[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
+}
+
+[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+
+
 /**
  * Correct cursors for clickable elements.
  */

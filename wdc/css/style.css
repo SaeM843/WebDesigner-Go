@@ -684,6 +684,11 @@ img {
   border-radius: 20px;
   background-color: #1a1a1a;
 }
+.register .register__form .form__item {
+  /*input {
+      appearance: radio;
+  }*/
+}
 .register .register__form .form__item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -705,7 +710,7 @@ img {
 .register .register__form .form__item .form__radio:not(:last-child) {
   margin-right: 35px;
 }
-.register .register__form .form__item .form__input, .register .register__form .form__item .form__select {
+.register .register__form .form__item .form__input:not(#tel), .register .register__form .form__item .form__select {
   width: 300px;
   color: #333;
   padding: 8px;
@@ -713,16 +718,18 @@ img {
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-.register .register__form .form__item input {
-  appearance: revert;
-}
 .register .register__form .form__item .form input[type=radio] {
   margin-right: 5px;
   border: 1px solid #333;
   border-radius: 50%;
 }
-.register .register__form .form__item .form input[type=tel] {
+.register .register__form .form__item #tel {
   width: 200px;
+  color: #333;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
 .register .register__form .form__item .form__textarea {
   background-color: white;
@@ -751,6 +758,14 @@ img {
   border-radius: 100px;
   box-shadow: 0 10px #dd118e;
   transition: all 0.3s;
+}
+
+input[type=radio] {
+  appearance: radio;
+}
+
+.form input[type=tel] {
+  width: 200px;
 }
 
 .footer {

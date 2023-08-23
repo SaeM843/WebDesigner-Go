@@ -36,7 +36,7 @@
                 margin-right: 35px;
             }
 
-            .form__input, .form__select {
+            .form__input:not(#tel), .form__select {
                 width: 300px;
                 color: #333;
                 padding: 8px;
@@ -45,9 +45,9 @@
                 border-radius: 5px;
             }
 
-            input {
-                appearance: revert;
-            }
+            /*input {
+                appearance: radio;
+            }*/
 
             .form input[type="radio"] {
                 margin-right: 5px;
@@ -55,8 +55,13 @@
                 border-radius: 50%;
             }
 
-            .form input[type="tel"] {
+            #tel {
                 width: 200px;
+                color: #333;
+                padding: 8px;
+                background-color: white;
+                border: 1px solid #aaa;
+                border-radius: 5px;
             }
 
             .form__textarea {
@@ -79,4 +84,12 @@
             }
         }
     }
+}
+
+input[type="radio"] {
+    appearance: radio;
+}
+
+.form input[type="tel"] {
+    width: 200px;
 }
