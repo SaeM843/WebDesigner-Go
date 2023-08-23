@@ -47,6 +47,6 @@
     }
 }
 
-/*.about__btn {
-    @include
-} */
+.about__btn {
+    @include btn.btn(230px, 18px);
+}

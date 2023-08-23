@@ -22,7 +22,7 @@
     }
 }*/
 
-@mixin baseBtn($bWidth, $bFontSize) {
+@mixin btn($bWidth, $bFontSize) {
     display: inline-block;
     width: $bWidth;
     font-size: $bFontSize;
