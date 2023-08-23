@@ -508,6 +508,20 @@ img {
   font-weight: bold;
   letter-spacing: 0.07em;
 }
+.mv .mv__inner .mv__titleArea .btn {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 24px 0;
+  background: linear-gradient(135deg, #c41a7f 0%, #664bbf 100%);
+  border-radius: 100px;
+  box-shadow: 0 10px #dd118e;
+  transition: all 0.3s;
+}
 .mv .mv__inner .mv__speaker--name {
   position: absolute;
   right: 20px;
