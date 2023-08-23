@@ -677,6 +677,10 @@ img {
 .register .register__form .form__item .form__input, .register .register__form .form__item .form__select {
   width: 300px;
   color: #333;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
 .register .register__form .form__item input {
   appearance: revert;

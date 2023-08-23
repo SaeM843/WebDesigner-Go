@@ -38,6 +38,10 @@
             .form__input, .form__select {
                 width: 300px;
                 color: #333;
+                padding: 8px;
+                background-color: white;
+                border: 1px solid #aaa;
+                border-radius: 5px;
             }
 
             input {
