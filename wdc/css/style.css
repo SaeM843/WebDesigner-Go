@@ -690,5 +690,9 @@ img {
   border: 1px solid #333;
   border-radius: 50%;
 }
+.register .register__form .form__item .form input[type=tel] {
+  width: 200px;
+  background-color: pink;
+}
 
 /*# sourceMappingURL=style.css.map */
