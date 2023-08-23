@@ -738,5 +738,11 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+.page-top .page-top__link:hover {
+  opacity: 0.8;
+}
+.page-top .page-top__link .page-top__icon {
+  font-size: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
