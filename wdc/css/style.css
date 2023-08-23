@@ -728,5 +728,15 @@ img {
   bottom: 80px;
   z-index: 1;
 }
+.page-top .page-top__link {
+  background: linear-gradient(135deg, #c41a7f 0%, #664bbf 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
