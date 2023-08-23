@@ -55,9 +55,14 @@
                 letter-spacing: 0.07em;
             }
 
-            .btn {
-                @include btn.btn(300px, 16px);
+            .mv__btn {
+                margin-top: 2em;
+
+                .btn {
+                    @include btn.btn(300px, 16px);
+                }
             }
+
 
         }
         .mv__speaker--name {
